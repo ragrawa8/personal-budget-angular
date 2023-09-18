@@ -43,7 +43,7 @@
 
     <main class="center" id="main">
       <!-- This is a Semantic HTML Change -->
-      <!-- <section class="page-area"> -->
+      <section class="page-area">
         <article>
           <h1>Stay on track</h1>
           <p>
@@ -103,17 +103,22 @@
           </p>
         </article>
       </section>
-      
+
       <!-- This is a Semantic HTML Change -->
       <aside>
-      <article>
-        <h1>Chart</h1>
-        <p>
-          <!-- This is an A11y Change -->
-            <canvas id="myChart" width="400" height="400" aria-label="Budget Distribution Chart"></canvas>
-        </p>
-    </article>
-    </aside>
+        <article>
+          <h1>Chart</h1>
+          <p>
+            <!-- This is an A11y Change -->
+            <canvas
+              id="myChart"
+              width="400"
+              height="400"
+              aria-label="Budget Distribution Chart"
+            ></canvas>
+          </p>
+        </article>
+      </aside>
 
       <h1>D3JS Chart</h1>
       <svg width="500" height="600" id="D3JSchart"></svg>
@@ -125,12 +130,16 @@
         <p itemprop="author">All rights reserved &copy; Fabio Nolasco</p>
       </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"
-        integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
-        integrity="sha512-s+xg36jbIujB2S2VKfpGmlC3T5V2TF3lY48DX7u2r9XzGzgPsa6wTpOQA7J9iffvdeBN0q9tKzRxVxw1JviZPg=="
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"
+      integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+      integrity="sha512-s+xg36jbIujB2S2VKfpGmlC3T5V2TF3lY48DX7u2r9XzGzgPsa6wTpOQA7J9iffvdeBN0q9tKzRxVxw1JviZPg=="
+      crossorigin="anonymous"
+    ></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
 
     <script>
