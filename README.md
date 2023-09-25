@@ -9,8 +9,8 @@ Steps to run :
 5. npm install
 6. ng server --open
 
-![Alt text](<img width="1440" alt="Screenshot 2023-09-25 at 3 01 04 AM" src="https://github.com/ragrawa8/personal-budget-angular/assets/122062620/37b76102-0f18-4b32-bf18-25a4ba6fa41a">
-)
+<img width="1440" alt="Screenshot 2023-09-25 at 3 01 04 AM" src="https://github.com/ragrawa8/personal-budget-angular/assets/122062620/6e05d5c0-e8b2-41d6-a41a-cacb40e5b4c4">
+
 
 Submitted By: Rhythm Agrawal
 Student ID: 801310679
