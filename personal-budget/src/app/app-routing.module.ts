@@ -14,20 +14,20 @@ const routes: Routes = [
   },
   {
     path: 'about',
-    component: AboutComponent
+    component: AboutComponent,
   },
   {
     path: 'login',
-    component: LoginComponent
+    component: LoginComponent,
   },
   {
     path: 'contact',
-    component: ContactComponent
+    component: ContactComponent,
   },
   {
     path: '**',
-    component: P404Component
-  },
+    component: P404Component,
+  }
 ];
 
 @NgModule({

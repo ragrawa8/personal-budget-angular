@@ -6,10 +6,12 @@ describe('HomepageComponent', () => {
   let component: HomepageComponent;
   let fixture: ComponentFixture<HomepageComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [HomepageComponent]
-    });
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ HomepageComponent ]
+    })
+    .compileComponents();
+
     fixture = TestBed.createComponent(HomepageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

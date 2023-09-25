@@ -6,10 +6,12 @@ describe('P404Component', () => {
   let component: P404Component;
   let fixture: ComponentFixture<P404Component>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [P404Component]
-    });
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ P404Component ]
+    })
+    .compileComponents();
+
     fixture = TestBed.createComponent(P404Component);
     component = fixture.componentInstance;
     fixture.detectChanges();

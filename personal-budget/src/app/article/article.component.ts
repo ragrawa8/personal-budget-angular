@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'pb-article',
@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./article.component.scss']
 })
 export class ArticleComponent {
+  // @Input() title = 'Title';
+  // @Input() content = 'Content';
 
-  
+  constructor() { }
+
+  ngOnInit():void {
+
+  }
 }

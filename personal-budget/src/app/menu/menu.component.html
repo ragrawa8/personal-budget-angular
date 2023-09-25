@@ -1,8 +1,28 @@
-<nav aria-label="Primary navigation">
+<nav>
   <ul>
     <li><a [routerLink]="['/']">Home</a></li>
     <li><a [routerLink]="['/about']">About</a></li>
     <li><a [routerLink]="['/login']">Login</a></li>
-    <li><a routerLink="/contact">Contact</a></li>
+    <li><a [routerLink]="['/contact']">Contact</a>
+    </li>
+    <!-- This is an A11y Change -->
+    <li>
+      <a [routerLink]="['https://google.com']" aria-label="External link to Google"
+        >Google</a
+      >
+    </li>
+    <!-- This is a Semantic HTML Change -->
+    
   </ul>
 </nav>
+<script>
+
+
+  // Check for saved dark mode preference
+  if (localStorage.getItem("dark-mode") === "true") {
+    document.body.classList.add("dark-mode");
+    document
+      .getElementById("darkModeToggle")
+      .setAttribute("aria-pressed", "true");
+  }
+</script>
